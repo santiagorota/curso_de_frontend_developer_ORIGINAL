@@ -122,3 +122,21 @@ ol
 htmlreference.io
 
 etiquetas.html
+
+Anatomía de una declaración CSS
+
+h1 {
+    color: pink;
+}
+
+h1 -> selector
+color -> propiedad
+pink; -> valor
+
+Tipos de selectores: básicos y combinadores
+
+DE TIPO ->      div {...}
+DE CLASE ->     .elemento {...}
+DE ID ->        #id-del-elemento
+DE ATRIBUTO ->  a[href="..."]{...}
+UNIVERSAL ->    *{...}

@@ -70,4 +70,55 @@ Anatomía de un documento HTML
 index.html
 
 HTML SEMÁNTICO
+Etiquetas con significado
+Ayuda a tu sitio a ser accesible
+Mejora tu posicionamiento SEO
+Código más claro
+Poner la etiqueta correcta en cada sección
+Sentido en particular
+div -> etiqueta sin sentido, sin significado
+Sirve para accesibilidad y GOOGLE
+Construir sitios web accesibles
 
+semantic.html
+
+Etiquetas de HTML más usadas
+
+<div>
+
+1) Layout:
+header
+nav
+section
+article
+aside
+footer
+
+2) Enlaces:
+a
+
+3) Textos:
+h1, h2, h3, h4, h5, h6
+p
+span
+
+4) Imágenes y vídeo:
+img
+svg
+iframe
+video
+
+5) Formularios:
+form
+input
+label
+button
+
+6) Listas:
+ul
+li
+ol
+
+htmlreference.io
+
+etiquetas.html

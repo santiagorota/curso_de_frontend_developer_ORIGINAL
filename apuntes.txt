@@ -1,0 +1,73 @@
+HTML: Lenguaje de marcado de hipertexto. Código que te ayuda a estructurar una página web. "El esqueleto"
+
+CSS: Hojas de estilo en cascada. Lenguaje que le da vida a tu esqueletito. Colores, tamaños, ubicaciones y más...
+
+Motores de renderizado: pasar archivos a pixeles en pantalla
+
+Los navegadores tienen Motores
+
+NAVEGADOR   MOTOR
+Chrome      Blink
+Edge        Edge HTML
+Safari      Webkit
+Firefox     Gecko
+
+Ellos básicamente hacen lo mismo para pasar los archivos a píxeles
+
+El navegador hace 5 pasos:
+1) Pasa los archivos a objetos
+DOM
+HTML
+|
+Head - Body
+
+2) Calcula el estilo correspondiente a cada nodo DOM
+
+3) Calcula als dimensiones de cada nodo y dónde va en la pantalla
+
+4) Pinta las diferentes cajas
+
+5) Toma las capas y las convierte en una imagen para mostrar en pantalla
+
+Anatomía de un elemento HTML
+
+Elemento:
+
+<h1>Platzi</h1>
+
+<h1> -> Etiqueta de apertura
+Platzi -> Contenido
+</h1> -> Etiqueta de cierre
+
+Atributos:
+
+Etiqueta de apertura
+<h1 class = "title" >
+class -> atributo
+"tittle" -> valor
+
+Anidamiento:
+
+<section>
+    <h1>Platzi</h1>
+    <p>Tiene una comunidad</p>
+    <ul>
+        <li>Increíble</li>
+        <li>Maravillosa</li>
+        <li>Inigualable</li>
+    </ul>
+</section>
+
+Elementos vacíos:
+
+<img src="cat.jpg" alt="cat" >
+
+Abrir terminal: CTRL + J
+take: crear y entrar carpeta
+
+Anatomía de un documento HTML
+
+index.html
+
+HTML SEMÁNTICO
+

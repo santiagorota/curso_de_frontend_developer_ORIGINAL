@@ -140,3 +140,71 @@ DE CLASE ->     .elemento {...}
 DE ID ->        #id-del-elemento
 DE ATRIBUTO ->  a[href="..."]{...}
 UNIVERSAL ->    *{...}
+
+Selectores combinadores:
+Descendientes           div p
+Hijo directo            div > p
+Elemento adyacente      div + p
+General de hermanos     div ~
+
+~ -> ALT GR + 4
+
+Tipos de selectores: pseudoclases y pseudoelementos
+
+pseudoclases
+:active
+:focus
+:hover
+:nth-child(n)
+
+pseudoelementos
+::after
+::before
+::first-letter
+::placeholder
+
+selectores-3.html
+
+CASCADA Y ESPECIFICIDAD
+
+C -> CASCADING
+S -> STYLE
+S -> SHEET
+
+CASCADA: SIGINFICA QUE EL ORDEN DE LAS REGLAS EN CSS IMPORTA
+
+HTML -> <h1>Hola</h1>
+
+CSS:
+h1 {color: red;}
+h1 {color: blue;}
+
+cascada.html
+
+Especificidad:
+Los navegadores determinan qué reglas de css deben aplicarse a las etiquetas HTML
+El orden y el origen de clasificación del css, intervienen en este proceso
+Sin embargo, a veces los navegadores entran en conflicto porque no saben que regla aplicar
+Conflictos -> Especificidad de los selectores
++ Especificidad +  probabilidad de que sus declaraciones se usen sobre las demás
+
+Cómo podemos saber que reglas de css tienen mayor especificidad?
+
+X0000       !IMPORTANT
+X0000       ESTILOS EN LÍNEA
+X00         #ID
+X0          CLASES, ATRIBUTOS Y PSEUDOCLASES
+X           ELEMENTOS Y PSEUDOELEMENTOS
+0           SELECTOR UNIVERSAL
+
+Clase 11: Tipos de display más usados: block, inline e inline-block
+
+Display: es el tipo de visualización que tienen los elementos
+
+-block -> display.html
+-inline -> display.html
+-inline-block -> display.html
+-flex -> display-2-flexbox.html
+-grid
+
+inline no tiene validez, widht, height, margin se mueve solo en horizontal
